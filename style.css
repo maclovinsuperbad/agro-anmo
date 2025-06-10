@@ -1,0 +1,72 @@
+/* Resetando alguns estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Container que divide o campo e a cidade */
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Estilo da seção Campo */
+.campo {
+    width: 45%;
+    background-color: #8bc34a; /* Cor verde do campo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.campo h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.campo p {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.campo img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Estilo da seção Cidade */
+.cidade {
+    width: 45%;
+    background-color: #2196f3; /* Cor azul da cidade */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cidade h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cidade p {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.cidade img {
+    width: 100%;
+    border-radius: 8px;
+}
